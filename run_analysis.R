@@ -1,4 +1,7 @@
-setwd("C:/MOOC/Getting and Cleaning Data/Project")
+#Set the working directory to where the script and the Samsung data can be found
+# in this case, my working directory is C:/Documents.../gohks/My Documents/Github/cleandata
+
+setwd("C:/Documents and Settings/gohks/My Documents/GitHub/cleandata")
 
 # Read feature labels
 features <- read.table(normalizePath(file.path(".","UCI HAR Dataset","features.txt")))
